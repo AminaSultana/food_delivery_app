@@ -1,0 +1,24 @@
+
+.button {
+  border: 4px solid #f7f6f7;
+  background: transparent;
+  color: white;
+  padding: 2%;
+  margin: 2%;
+ font-weight: bold;
+ align-items: center;
+  cursor: pointer;
+  font-size: 1.75rem;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: .75rem 3rem;
+}
+
+.span{
+  padding: 1rem;
+}
+
+.image {
+  display: inline-block;
+}
