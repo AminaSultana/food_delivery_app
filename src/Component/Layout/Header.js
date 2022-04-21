@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <React.Fragment>
       <header className={`${styled.header}`}>
-        <h1> Meals</h1>
+        <h1> React Meals</h1>
         <Cart/>
       </header>
       <div>
