@@ -1,5 +1,5 @@
 import classes from "./Mealitem.module.css";
-
+import Form from "./Form";
 const Mealitems = () => {
   const DUMMY_MEALS = [
     {
@@ -30,10 +30,16 @@ const Mealitems = () => {
   const meals = DUMMY_MEALS.map((item) => {
     return (
       <li className={`${classes.li}`}>
-        <h2 className={`${classes.name}`}>{item.name}</h2>
-        <h3 className={`${classes.description}`}>{item.description}</h3>
-        <h3 className={`${classes.price}`}>{`$ ${item.price}`}</h3>
-
+        <div className={`${classes.div}`}>
+          <div>
+            <h2 className={`${classes.name}`}>{item.name}</h2>
+            <h3 className={`${classes.description}`}>{item.description}</h3>
+            <h3 className={`${classes.price}`}>{`$ ${item.price}`}</h3>
+          </div>
+          <div>
+            <Form />
+          </div>
+        </div>
       </li>
     );
   });

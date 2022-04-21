@@ -1,0 +1,19 @@
+.summary {
+  background-color: rgb(65, 61, 61);
+  color: white;
+  border-radius: 0.5rem;
+  z-index: 9;
+  width: 50rem;
+  text-align: center;
+  padding: 1.5rem;
+  margin:auto;
+  margin-top: -10rem;
+  position: relative;
+
+
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.label{
+font-weight: bold;
+color: black;
+margin: 10px;
+}
+
+.input{
+    width: 40px;
+
+}
+.button{
+    padding: 7px;
+    width: 5rem;
+    margin: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: brown;
+    
+}

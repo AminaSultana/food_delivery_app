@@ -1,23 +1,31 @@
-.meal_items{
-    border-radius: 20px;
-    background-color: white;
-    padding: 1.5rem;
-    width: 70rem;
-    height: fit-content;
-    list-style: none;
-    margin: auto;
+.meal_items {
+  border-radius: 20px;
+  background-color: white;
+  padding: 1.5rem;
+  width: 70rem;
+  height: fit-content;
+  list-style: none;
+  margin: auto;
+  margin-top: 0.5rem;
 }
-.li{
-    border-bottom:  1px solid rgb(207, 201, 201);
-}
-
-.name{
-font-weight: bold;
+.li {
+  border-bottom: 1px solid rgb(207, 201, 201);
 }
 
-.description{
-    font-weight: lighter;
+.name {
+  font-weight: bold;
 }
-.price{
-    color: brown;
+
+.description {
+  font-weight: lighter;
+}
+.price {
+  color: brown;
+}
+
+.div {
+  display: inline-block;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
