@@ -1,0 +1,44 @@
+.modal_main {
+  background-color: white;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  width: 50rem;
+  font-size: 1.5rem;
+  
+  
+}
+.amount {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button1 {
+  padding: 0.5rem;
+  border-radius: 12px;
+  border-color: red;
+  background-color: transparent;
+  color: red;
+  font-size: 20px;
+  margin: 10px;
+  height: 3.5rem;
+}
+
+.button2 {
+  padding: 0.5rem;
+  border-radius: 12px;
+  border-color: red;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  width: auto;
+  height: 3.5rem;
+}
