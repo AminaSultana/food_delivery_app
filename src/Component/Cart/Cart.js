@@ -5,12 +5,19 @@ import classes from "./cart.module.css";
 import CartShow from './CartShow'
 
 const Cart = () => {
-  const [cartValue, setCartValue] = useState(0);
+  const [cartValue, setCartValue] = useState(3);
   const [openCart, setOpenCart] = useState(false);
+
   const buttonClickHandler = () => {
     console.log("cart button");
     setOpenCart(true);
   };
+
+  const cartCloseHandler=()=>{
+    setOpenCart(false);
+    console.log("close button clicked");
+  }
+
   return (
     <React.Fragment>
       <button className={`${classes.button}`} onClick={buttonClickHandler}>
@@ -20,7 +27,7 @@ const Cart = () => {
         <span className={`${classes.span}`}>Your Cart</span>
         <span className={`${classes.cart_value}`}>{cartValue}</span>
       </button>
-      {openCart && <CartShow/>}
+      {openCart && <CartShow onClose={cartCloseHandler}/>}
     </React.Fragment>
   );
 };
