@@ -3,9 +3,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import classes from './ModalCart.module.css'
 
-const Backdrop = ()=>{
-  return <div className={classes.backdrop}/>
+const Backdrop = (props)=>{
+  return <div className={classes.backdrop}  onClick={props.onClose}/>
 }
+
 const Modal = (props)=>{
     return (
       <div className={classes.modal}>
@@ -20,8 +21,8 @@ const Modal = (props)=>{
 export default function ModalCart(props) {
   return (
     <React.Fragment>
-      {ReactDOM.createPortal(<Backdrop/>, document.getElementById("modal"))}
-        {ReactDOM.createPortal(<Modal>{props.children}</Modal>, document.getElementById("modal"))}      
+      {ReactDOM.createPortal(<Backdrop onClose={props.onClose}/>, document.getElementById("modal"))}
+      {ReactDOM.createPortal(<Modal>{props.children}</Modal>, document.getElementById("modal"))}      
     </React.Fragment>
   );
 }

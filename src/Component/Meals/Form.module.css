@@ -1,20 +1,20 @@
-.label{
-font-weight: bold;
-color: black;
-margin: 10px;
-}
-
-.input{
-    width: 40px;
-
-}
-.button{
-    padding: 7px;
-    width: 5rem;
-    margin: 20px;
-    border-radius: 15px;
+.form {
+    text-align: right;
+  }
+  
+  .form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
     color: white;
-    background-color: brown;
-    
-}
-
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background-color: #641e03;
+    border-color: #641e03;
+  }

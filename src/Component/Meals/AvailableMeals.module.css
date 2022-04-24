@@ -1,0 +1,10 @@
+.mealList {
+    border-radius: 20px;
+    background-color: white;
+    padding: 1.5rem;
+    width: 60%;
+    height: fit-content;
+    list-style: none;
+    margin: auto;
+    margin-top: 0.5rem;
+  }

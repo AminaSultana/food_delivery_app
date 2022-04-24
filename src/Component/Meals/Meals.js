@@ -1,13 +1,13 @@
 import React from "react";
 
 import RestaurantSummary from "./RestaurantSummary";
-import Mealitems from "./Mealitems";
+import AvailableMeals from "./AvailableMeals";
 
 const Meals = () => {
   return (
     <React.Fragment>
       <RestaurantSummary />
-      <Mealitems />
+      <AvailableMeals/>
     </React.Fragment>
   );
 };

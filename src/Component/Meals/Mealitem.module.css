@@ -1,13 +1,4 @@
-.meal_items {
-  border-radius: 20px;
-  background-color: white;
-  padding: 1.5rem;
-  width: 70rem;
-  height: fit-content;
-  list-style: none;
-  margin: auto;
-  margin-top: 0.5rem;
-}
+
 .li {
   border-bottom: 1px solid rgb(207, 201, 201);
 }
