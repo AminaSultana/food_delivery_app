@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 
-import Image from "./cart.jpg";
+import Image from "./icons8-buying-24.png";
 import classes from "./cart.module.css";
 import CartShow from './CartShow'
 import CartContext from "../../store/cart-context";
